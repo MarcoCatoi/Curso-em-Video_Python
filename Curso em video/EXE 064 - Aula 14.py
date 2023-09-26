@@ -7,9 +7,9 @@ soma = int(0)
 
 while cont != '999':
     cont = input('Digite um numero para ser somado.(Quando quiser encerrar digite o numero "999":')
-    if cont == '999':
-        break
     soma = soma + int(cont)
     n = n + 1
+soma = soma - 999
+n = n - 1
 print('A quantidade de numeros digitados é: {} '
       'e o resultado da soma dos numeros digitados é: {}'.format(n, soma))
